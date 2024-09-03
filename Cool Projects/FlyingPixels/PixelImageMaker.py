@@ -76,19 +76,19 @@ class flyingPixel(object):
 
 
 
-imDirectory = "C:/Users/batte/OneDrive/_Parker/Python/Cool Projects/FlyingPixels/Test_My_Face"
+imDirectory = "Test_My_Face"
 imOne = Image.open(imDirectory)
 imOne.convert("RGB")
 width = imOne.size[0]
 height = imOne.size[1]
-pixelRatio = 20
+pixelRatio = 10
 
 smallimage1 = imOne.resize((width//pixelRatio, height//pixelRatio), Image.BILINEAR)
 smallwidth = smallimage1.size[0]
 smallheight = smallimage1.size[1]
 smallimage1Data = smallimage1.getdata()
 
-imDirectory2 = "C:/Users/batte/OneDrive/_Parker/Python/Cool Projects/FlyingPixels/Test_My_Face_3"
+imDirectory2 = "Test_My_Face_3"
 
 
 flyingPixels = []

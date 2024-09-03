@@ -8,14 +8,14 @@ Created on Sun Feb  6 15:07:15 2022
 # WORDLE
 
 allWordleWords = []
-path = "C:/Users/batte/OneDrive/_Parker/Python/word_files/wordles_all_words.txt"
+path = "../../word_files/wordles_all_words.txt"
 
 with open(path) as handle:
     for line in handle:
         allWordleWords.append(line.strip("\n"))
         
 realWordleSolutions = []
-path = "C:/Users/batte/OneDrive/_Parker/Python/word_files/real_wordles.txt"
+path = "../..//word_files/real_wordles.txt"
 
 with open(path) as handle:
     for line in handle:
@@ -73,3 +73,6 @@ def follow_rules(listToChange, unusables, wrongPlace, rightPlace):
 
 sortedWords = realWordleSolutions #+ allWordleWords
 sortedWords = follow_rules(sortedWords, ".....", ".....", ".....")
+sortedWords = follow_rules(sortedWords, "s..t.", ".la.e", ".....")
+sortedWords = follow_rules(sortedWords, "b...r", "..l..", ".a.e.")
+sortedWords = follow_rules(sortedWords, "p.n..", ".....", ".a.el")

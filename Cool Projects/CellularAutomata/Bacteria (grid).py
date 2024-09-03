@@ -49,7 +49,7 @@ screen = pygame.display.set_mode((WIDTH,HEIGHT))
 clock = pygame.time.Clock()    
  
 allBac = []
-for x in range(100):
+for x in range(1000):
     newBac = Bacteria(random.randint(0,600),random.randint(0,600), "0000",None)
     allBac.append(newBac)
 
