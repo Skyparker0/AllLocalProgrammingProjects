@@ -28,3 +28,5 @@ def splotch(inputImage,time):
     ###ChangeImageHere###
     return outputImage.resize(np.array(inputImage.size)*3)
 
+img = Image.open("Cool Projects\ImageToText\sketch.JPG")
+splotch(img,10).show()

@@ -9,13 +9,13 @@ Created on Sat Sep  4 10:07:18 2021
 
 import random
 
-PAST_WORDS = 2
+PAST_WORDS = 4
 
 paths = ["markov.txt",
-         "C:/Users/batte/OneDrive/_Parker/Python/txt files/shakespeare.txt",
-         "C:/Users/batte/OneDrive/_Parker/Python/txt files/harrypotter.txt",
-         "C:/Users/batte/OneDrive/_Parker/Python/txt files/disney.txt",
-         "C:/Users/batte/OneDrive/_Parker/Python/txt files/Words.txt"
+         "C:/Users/batte/OneDrive/_Parker(OUTDATED USE DRIVE)/Python/txt files/shakespeare.txt",
+         "C:/Users/batte/OneDrive/_Parker(OUTDATED USE DRIVE)/Python/txt files/harrypotter.txt",
+         "C:/Users/batte/OneDrive/_Parker(OUTDATED USE DRIVE)/Python/txt files/disney.txt",
+         "C:/Users/batte/OneDrive/_Parker(OUTDATED USE DRIVE)/Python/txt files/Words.txt"
          ]
 
 filepath = paths[4]
@@ -90,4 +90,7 @@ def make_word(markovChain=chain):
         letters.append(chosenWord)
         
     return "".join(letters)
+
+
+print(make_word())
                 

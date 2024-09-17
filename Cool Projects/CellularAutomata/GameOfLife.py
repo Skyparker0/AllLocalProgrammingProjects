@@ -106,4 +106,4 @@ while True:
     gol.update()
     gol.draw(screen)
     pygame.display.flip()
-    clock.tick(2)
+    clock.tick(5)

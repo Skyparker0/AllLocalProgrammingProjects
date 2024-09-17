@@ -8,7 +8,7 @@ from PIL import Image
 import random
 import numpy as np
 
-img = Image.open("Test_Image_Me.jpg")
+img = Image.open("Cool Projects\ImageToText\Test_Image_Me.jpg")
 
 TEXT_CHARACTERS = """ .:-=+*#%@"""   #least to most bright
 

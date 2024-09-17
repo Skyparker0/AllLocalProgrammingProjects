@@ -71,5 +71,5 @@ def blackAndWhiteFilter(inputImage):
 
 
 
-img = Image.open("C:/Users/batte/OneDrive/_Parker/ParkerScratch/Rattlers.jpg")
-edgeFilter(edgeFilter(img)).show()
+img = Image.open("Cool Projects\ImageToText\sketch.JPG")
+edgeFilter(img).show()

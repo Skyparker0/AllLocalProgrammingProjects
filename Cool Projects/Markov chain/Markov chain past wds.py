@@ -11,13 +11,13 @@ import random
 
 PAST_WORDS = 5
 
-paths = ["markov.txt",
-         "C:/Users/batte/OneDrive/_Parker/Python/txt files/shakespeare.txt",
+paths = ["Cool Projects\Markov chain\markov.txt",
+         "C:/Users/batte/OneDrive/_Parker(OUTDATED USE DRIVE)/Python/txt files/shakespeare.txt",
          "C:/Users/batte/OneDrive/_Parker/Python/txt files/harrypotter.txt",
-         "C:/Users/batte/OneDrive/_Parker/Python/txt files/disney.txt"
+         "C:/Users/batte/OneDrive/_Parker(OUTDATED USE DRIVE)/Python/txt files/disney.txt"
          ]
 
-filepath = paths[3]
+filepath = paths[1]
 
 text = ""
 
@@ -88,3 +88,5 @@ def make_sentance(markovChain=chain):
         
     return " ".join(words)
                 
+
+print(" ".join([make_sentance() for x in range(10)]))

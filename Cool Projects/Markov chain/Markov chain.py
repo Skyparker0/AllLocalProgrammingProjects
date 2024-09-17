@@ -49,7 +49,7 @@ def make_sentance(text):
         if "." in lastWord:
             return sentance
 
-filepath = "markov.txt"
+filepath = "Cool Projects\Markov chain\markov.txt"
 
 text = ""
 
@@ -59,6 +59,7 @@ with open(filepath, encoding="utf8") as handle:
     for line in handle:
         text += line
 
+print(text)
 
 
 
