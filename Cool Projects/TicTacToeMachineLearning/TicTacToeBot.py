@@ -96,7 +96,7 @@ class tttBoard(object):
 moveData = {}   # strings of game positions assigned to dicts with the favoribility of each move
                 # "000000000":{1:0,2:0,3:0,4:0,5:10000,6:0,7:0,8:0,9:0} play in the middle :\
 
-saveDataFile = "TTTMovesDict.pickle"
+saveDataFile = "Cool Projects\TicTacToeMachineLearning\TTTMovesDict.pickle"
 
 def saveTo(data, fileName):
     with open(fileName, 'wb') as handle:

@@ -239,7 +239,7 @@ TILEWIDTH = 60
 WIDTH,HEIGHT = (20,10) #Of the board, in tiles
 
 # The directory containing the images
-directory = "G:\My Drive\Python\Cool Projects\WaveFunctionCollapse\caves"
+directory = "Cool Projects\WaveFunctionCollapse\city"
 
 # The list to store the images
 IMAGES = []

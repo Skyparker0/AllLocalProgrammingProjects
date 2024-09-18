@@ -3,7 +3,7 @@ from scipy.spatial.distance import cosine
 import math
 import numpy as np
 
-with open("words.txt",encoding='utf-8') as f:
+with open("Cool Projects\Word2Vec\words.txt",encoding='utf-8') as f:
     words = dict()
     for i in range(50000):
         row = next(f).split()
@@ -42,7 +42,9 @@ def apply_change(text, startWord, endWord):
         if splitText[i] in words:
             wordVector = words[splitText[i]]
             newVector = wordVector + changeVector
-            newWords = closest_words(newVector)
+            newWords = closest_word(newVector)
             splitText[i] = str(newWords)
             
     return " ".join(splitText)
+
+print(apply_change("Dad mom sister brother aunt uncle friend family","dad","mom"))
