@@ -81,7 +81,7 @@ imOne = Image.open(imDirectory)
 imOne.convert("RGB")
 width = imOne.size[0]
 height = imOne.size[1]
-pixelRatio = 10
+pixelRatio = 5
 
 smallimage1 = imOne.resize((width//pixelRatio, height//pixelRatio), Image.BILINEAR)
 smallwidth = smallimage1.size[0]
