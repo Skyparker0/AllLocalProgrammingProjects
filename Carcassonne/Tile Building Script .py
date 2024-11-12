@@ -132,7 +132,7 @@ class tileMap:
         return (tile1[checkSide], tile2[(checkSide+2)%4])
     
         
-path = 'C:/Users/batte/OneDrive/_Parker/Python/Carcassonne/Wang_2'     
+path = 'RealTilePics'     
 
 
 tilePaths, names = find_all(path)
